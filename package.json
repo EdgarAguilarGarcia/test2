@@ -9,8 +9,6 @@
     "sirv-cli": "^0.4.4"
   },
   "scripts": {
-    "build": "rollup -c",
-    "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
     "start": "sirv public --single",
     "start:dev": "sirv public --single --dev"
