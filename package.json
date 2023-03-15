@@ -20,5 +20,8 @@
     "dev": "run-p start:dev autobuild",
     "start": "sirv public --single",
     "start:dev": "sirv public --single --dev"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
